@@ -1,1 +1,6 @@
-Homework1_3
+str=input()
+str_revers =''.join(reversed(str))
+if str_revers== str:
+  print("true")
+else:
+   print("false")
